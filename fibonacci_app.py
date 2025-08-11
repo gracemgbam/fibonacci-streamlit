@@ -19,6 +19,7 @@ def compute_ratios(seq):
 st.set_page_config(page_title="Fibonacci Explorer", page_icon="🌿")
 st.title("🌿 Exploring the Fibonacci Sequence")
 
+
 n = st.slider("How many Fibonacci terms?", 5, 100, 15)
 fib_seq = generate_fibonacci(n)
 ratios = compute_ratios(fib_seq)
